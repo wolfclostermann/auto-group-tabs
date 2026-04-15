@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Auto-group tabs",
+  "version": "1.1.0",
+  "description": "Group tabs into Google Console, Code, Workflow, Documents, and Docs using URL rules.",
+  "permissions": ["tabs", "tabGroups"],
+  "action": {
+    "default_title": "Auto-group tabs"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
